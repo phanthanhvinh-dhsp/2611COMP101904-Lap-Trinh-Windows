@@ -1,0 +1,17 @@
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.Form1.resources
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.csproj.GenerateResource.cache
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.AssemblyInfoInputs.cache
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.AssemblyInfo.cs
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.csproj.CoreCompileInputs.cache
+D:\Vinh\lab01\lab01\bin\Debug\net10.0-windows\lab01.exe
+D:\Vinh\lab01\lab01\bin\Debug\net10.0-windows\lab01.deps.json
+D:\Vinh\lab01\lab01\bin\Debug\net10.0-windows\lab01.runtimeconfig.json
+D:\Vinh\lab01\lab01\bin\Debug\net10.0-windows\lab01.dll
+D:\Vinh\lab01\lab01\bin\Debug\net10.0-windows\lab01.pdb
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.dll
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\refint\lab01.dll
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.pdb
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.genruntimeconfig.cache
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\ref\lab01.dll
+D:\Vinh\lab01\lab01\obj\Debug\net10.0-windows\lab01.csproj.Up2Date
