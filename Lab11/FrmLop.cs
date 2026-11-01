@@ -3,8 +3,7 @@ using Microsoft.Data.SqlClient;
 
 public class FrmLop : Form
 {
-    const string connectionString = @"Data Source=.;Initial Catalog=EduManagerDB;Integrated Security=True;TrustServerCertificate=True";
-
+    const string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=EduManagerDB;Integrated Security=True;TrustServerCertificate=True";
     Label lblMaLop = new Label { Text = "Mã lớp:", AutoSize = true };
     Label lblTenLop = new Label { Text = "Tên lớp:", AutoSize = true };
     TextBox txtMaLop = new TextBox();
