@@ -1,3 +1,4 @@
+using System.ComponentModel;
 public class FrmProduct : Form
 {
     BindingList<Product> products = new BindingList<Product>();
