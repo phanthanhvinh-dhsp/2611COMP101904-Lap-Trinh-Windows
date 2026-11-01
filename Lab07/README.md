@@ -27,7 +27,7 @@ Bỏ trống username/password báo cảnh báo, sai tài khoản báo lỗi.
 ![Form đăng nhập](screenshots/01-dang-nhap.png)
 
 ### 2. Form chính MDI
-Đăng nhập thành công, StatusStrip hiển thị tên người dùng, vai trò và thời gian.
+Đăng nhập thành công, StatusStrip hiển thị tên người dùng và vai trò.
 
 ![Form chính MDI](screenshots/02-form-chinh.png)
 
