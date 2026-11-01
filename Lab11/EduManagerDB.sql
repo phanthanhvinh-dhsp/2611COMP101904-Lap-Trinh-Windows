@@ -1,13 +1,22 @@
-IF DB_ID('EduManagerDB') IS NULL
-    CREATE DATABASE EduManagerDB;
+USE master;
 GO
+
+-- Xóa database cũ nếu đã tồn tại để làm sạch hoàn toàn
+IF DB_ID('EduManagerDB') IS NOT NULL
+BEGIN
+    ALTER DATABASE EduManagerDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE EduManagerDB;
+END
+GO
+
+-- Tạo mới lại database từ đầu
+CREATE DATABASE EduManagerDB;
+GO
+
 USE EduManagerDB;
 GO
 
-IF OBJECT_ID('SINHVIEN', 'U') IS NOT NULL DROP TABLE SINHVIEN;
-IF OBJECT_ID('LOP', 'U') IS NOT NULL DROP TABLE LOP;
-GO
-
+-- Tạo lại các bảng theo đúng thứ tự (bảng cha LOP trước, bảng con SINHVIEN sau)
 CREATE TABLE LOP (
     MaLop VARCHAR(20) PRIMARY KEY,
     TenLop NVARCHAR(100) NOT NULL
@@ -20,6 +29,7 @@ CREATE TABLE SINHVIEN (
     CONSTRAINT FK_SINHVIEN_LOP FOREIGN KEY (MaLop) REFERENCES LOP(MaLop)
 );
 
+-- Thêm dữ liệu mẫu
 INSERT INTO LOP(MaLop, TenLop) VALUES
 ('CNTT01', N'Công nghệ thông tin 01'),
 ('CNTT02', N'Công nghệ thông tin 02'),
