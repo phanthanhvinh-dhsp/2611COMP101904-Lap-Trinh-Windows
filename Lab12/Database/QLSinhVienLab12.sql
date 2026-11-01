@@ -1,8 +1,19 @@
+USE master;
+GO
+
+-- Xóa database cũ nếu đã tồn tại để tránh xung đột
+IF DB_ID('QLSinhVienLab12') IS NOT NULL
+BEGIN
+    ALTER DATABASE QLSinhVienLab12 SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE QLSinhVienLab12;
+END
+GO
+
+-- Tạo mới database và các bảng
 CREATE DATABASE QLSinhVienLab12;
 GO
 USE QLSinhVienLab12;
 GO
-
 CREATE TABLE LOP (
     MaLop NVARCHAR(20) PRIMARY KEY,
     TenLop NVARCHAR(100) NOT NULL
