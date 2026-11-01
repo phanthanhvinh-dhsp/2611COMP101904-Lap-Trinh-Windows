@@ -39,7 +39,7 @@ Nhập điểm `-1` hoặc `11`, chương trình báo điểm không hợp lệ 
 ![Điểm không hợp lệ](screenshots/04-diem-khong-hop-le.png)
 
 ### 5. Tìm kiếm
-Tìm theo tên với từ khóa `Nguyễn` in ra các sinh viên có họ tên chứa từ khóa. Tìm theo mã in thông tin sinh viên.
+Tìm theo tên với từ khóa `phan` in ra các sinh viên có họ tên chứa từ khóa. Tìm theo mã in thông tin sinh viên.
 
 ![Tìm kiếm](screenshots/05-tim-kiem.png)
 
